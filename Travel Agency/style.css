@@ -1,0 +1,20 @@
+.first-head-body{
+    background-color: #f7f8fa;
+}
+.first-head{
+    color:#e53e3e;
+}
+a.first-head-text{
+    color:black;
+}
+form.header-form{
+    width: 800px;
+}
+form.header-form .input-group-text{
+    width: 100px;
+}
+a span.icon-middle {
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+}

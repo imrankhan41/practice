@@ -1,0 +1,18 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    
+    background: url(img/3081783-removebg-preview.png)no-repeat;
+    background-color: #37517e;
+    background-position: right;
+ 
+}
+.nav-link,.navbar-brand{
+    font-size:1.5rem
+}
+header .btn :hover{
+
+    box-shadow: rgb(0 0 0) transparent;
+}

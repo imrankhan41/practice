@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website | Where You Can Buy Your Best Product </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/evalyfav.png" type="image/x-icon">
+    
+    <script src="https://kit.fontawesome.com/45c97595a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- Top navbar section -->
+        <div class="top-nav-bar">
+            <div class="search-box">
+                <i class="fas fa-bars" id="menu-btn" onclick="openmenu()"></i>
+                <i class="fas fa-times" id="close-btn" onclick="closemenu()"></i>
+                <img src="images/evaly-logo.png" alt="" class="logo">
+                <input type="text"  class="form-control" >
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+            </div>
+            <div class="menu-bar">
+                <ul>
+                    <li><a href="#"><i class="fas fa-shopping-basket"></i>  Cart</a></li>
+                    <li><a href="#"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+                    <li><a href="#"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
+                </ul>
+    
+            </div>
+        </div>
+        
+    </header>
+   <section class="header">
+        <div class="side-menu" id="side-menu">
+           <ul>
+               <li>On sale<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-1</li>
+                </ul>
+            </li>
+               <li>Mobiles<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-2</li>
+                </ul>
+               </li>
+               <li>Computers<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-3</li>
+                </ul>
+                </li>
+               <li>Books<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-4</li>
+                    <li>Sub menu-4</li>
+                    <li>Sub menu-4</li>
+                    <li>Sub menu-4</li>
+                    <li>Sub menu-4</li>
+                </ul>
+               </li>
+               <li>Fitness<i clas5="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-5</li>
+                    <li>Sub menu-5</li>
+                    <li>Sub menu-5</li>
+                    <li>Sub menu-5</li>
+                    <li>Sub menu-5</li>
+                </ul>
+                </li>
+               <li>Baby Care<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-6</li>
+                    <li>Sub menu-6</li>
+                    <li>Sub menu-6</li>
+                    <li>Sub menu-6</li>
+                    <li>Sub menu-6</li>
+                </ul>
+                </li>
+               <li>Magazines<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-7</li>
+                    <li>Sub menu-7</li>
+                    <li>Sub menu-7</li>
+                    <li>Sub menu-7</li>
+                    <li>Sub menu-7</li>
+                </ul>
+                </li>
+               <li>Auto Accessories<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-8</li>
+                    <li>Sub menu-8</li>
+                    <li>Sub menu-8</li>
+                    <li>Sub menu-8</li>
+                    <li>Sub menu-8</li>
+                </ul>
+                </li>
+               <li>Movies and Music<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-9</li>
+                    <li>Sub menu-9</li>
+                    <li>Sub menu-9</li>
+                    <li>Sub menu-9</li>
+                    <li>Sub menu-9</li>
+                </ul>
+                </li>
+               <li>Video and Games<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-10</li>
+                    <li>Sub menu-10</li>
+                    <li>Sub menu-10</li>
+                    <li>Sub menu-10</li>
+                    <li>Sub menu-10</li>
+                </ul>
+                </li>
+               <li>Home and Kitchen<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-11</li>
+                    <li>Sub menu-11</li>
+                    <li>Sub menu-11</li>
+                    <li>Sub menu-11</li>
+                    <li>Sub menu-11</li>
+                </ul>
+                </li>
+               <li>Furniture<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-12</li>
+                    <li>Sub menu-12</li>
+                    <li>Sub menu-12</li>
+                    <li>Sub menu-12</li>
+                    <li>Sub menu-12</li>
+                </ul>
+                </li>
+               <li>Grocery<i class="fas fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-13</li>
+                    <li>Sub menu-13</li>
+                    <li>Sub menu-13</li>
+                    <li>Sub menu-13</li>
+                    <li>Sub menu-13</li>
+                </ul>
+                </li>
+           </ul>
+        </div>
+   </section>
+
+   <script>
+    function openmenu() {
+
+     document.getElementById("side-menu").style.display="block;"
+     document.getElementById("menu-btn").style.display="none;"
+     document.getElementById("close-btn").style.display="block;"
+    }
+    function closemenu() {
+
+     document.getElementById("side-menu").style.display="none;"
+     document.getElementById("menu-btn").style.display="block;"
+     document.getElementById("close-btn").style.display="none;"
+    }
+    </script>
+    
+</body>
+</html>
